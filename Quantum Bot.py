@@ -567,4 +567,4 @@ async def on_interaction(interaction: discord.Interaction):
             await interaction.response.send_modal(AppealModal())
 
 
-bot.run("MTM2NzI5OTMxMTk5NzY4NTgwMA.GHjnEF.XsDrL6zP0t-wFtkdTJHpCOXTv1l_WUOxPIHWrc")
+bot.run("TOKEN")
