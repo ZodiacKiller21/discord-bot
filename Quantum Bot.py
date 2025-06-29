@@ -566,5 +566,5 @@ async def on_interaction(interaction: discord.Interaction):
         elif interaction.data["custom_id"] == "appeal_here":
             await interaction.response.send_modal(AppealModal())
 
-
-bot.run("TOKEN")
+import os
+bot.run(os.getenv("TOKEN"))
